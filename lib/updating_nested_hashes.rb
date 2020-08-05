@@ -20,10 +20,17 @@ def update_status
       }
    }
    
+<<<<<<< HEAD
       
     epic_tragedy[:montague][:hero][:status] = "dead"
     epic_tragedy[:capulet][:heroine][:status] = "dead"
    epic_tragedy
+=======
+
+    epic_tragedy[:montague][:hero][:status]="dead"
+    epic_tragedy[:capulet][:heroine][:status]="dead"
+    puts epic_tragedy
+>>>>>>> 35748d2eae96b9768c4d0e43735c98b7511c3c61
 end
 
 
